@@ -1,0 +1,12 @@
+drop table sudoku_board
+/
+create table sudoku_board as select * from sudoku_backup
+/
+--
+--Indtast ny sudoku i tabellen SUDOKU_BOARD.
+--
+spool C:\Privat\SUDOKU\Solver\test.lst
+set serveroutput on
+set linesize 100
+execute sudoku.play;
+spool off

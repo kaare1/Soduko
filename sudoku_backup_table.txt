@@ -1,0 +1,72 @@
+
+CREATE TABLE SUDOKU_BACKUP
+(
+  R   VARCHAR2(2 BYTE),
+  C1  NUMBER,
+  C2  NUMBER,
+  C3  NUMBER,
+  C4  NUMBER,
+  C5  NUMBER,
+  C6  NUMBER,
+  C7  NUMBER,
+  C8  NUMBER,
+  C9  NUMBER
+);
+
+
+
+Insert into SUDOKU_BACKUP
+   (R, C1, C2, C3, C4, 
+    C5, C6, C7, C8, C9)
+ Values
+   ('A1', NULL, NULL, NULL, NULL, 
+    NULL, NULL, NULL, NULL, NULL);
+Insert into SUDOKU_BACKUP
+   (R, C1, C2, C3, C4, 
+    C5, C6, C7, C8, C9)
+ Values
+   ('A2', NULL, NULL, NULL, NULL, 
+    NULL, NULL, NULL, NULL, NULL);
+Insert into SUDOKU_BACKUP
+   (R, C1, C2, C3, C4, 
+    C5, C6, C7, C8, C9)
+ Values
+   ('A3', NULL, NULL, NULL, NULL, 
+    NULL, NULL, NULL, NULL, NULL);
+Insert into SUDOKU_BACKUP
+   (R, C1, C2, C3, C4, 
+    C5, C6, C7, C8, C9)
+ Values
+   ('A4', NULL, NULL, NULL, NULL, 
+    NULL, NULL, NULL, NULL, NULL);
+Insert into SUDOKU_BACKUP
+   (R, C1, C2, C3, C4, 
+    C5, C6, C7, C8, C9)
+ Values
+   ('A5', NULL, NULL, NULL, NULL, 
+    NULL, NULL, NULL, NULL, NULL);
+Insert into SUDOKU_BACKUP
+   (R, C1, C2, C3, C4, 
+    C5, C6, C7, C8, C9)
+ Values
+   ('A6', NULL, NULL, NULL, NULL, 
+    NULL, NULL, NULL, NULL, NULL);
+Insert into SUDOKU_BACKUP
+   (R, C1, C2, C3, C4, 
+    C5, C6, C7, C8, C9)
+ Values
+   ('A7', NULL, NULL, NULL, NULL, 
+    NULL, NULL, NULL, NULL, NULL);
+Insert into SUDOKU_BACKUP
+   (R, C1, C2, C3, C4, 
+    C5, C6, C7, C8, C9)
+ Values
+   ('A8', NULL, NULL, NULL, NULL, 
+    NULL, NULL, NULL, NULL, NULL);
+Insert into SUDOKU_BACKUP
+   (R, C1, C2, C3, C4, 
+    C5, C6, C7, C8, C9)
+ Values
+   ('A9', NULL, NULL, NULL, NULL, 
+    NULL, NULL, NULL, NULL, NULL);
+COMMIT;
